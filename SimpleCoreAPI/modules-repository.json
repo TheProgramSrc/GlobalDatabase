@@ -1,0 +1,34 @@
+{
+  "filesmodule": {
+    "display": "Files Module",
+    "file_name": "FilesModule"
+  },
+  "tasksmodule": {
+    "display": "Tasks Module",
+    "file_name": "TasksModule"
+  },
+  "loggingmodule": {
+    "display": "Logging Module",
+    "file_name": "LoggingModule"
+  },
+  "dependencydownloadermodule": {
+    "display": "DependencyDownloader Module",
+    "file_name": "DependencyDownloaderModule"
+  },
+  "networkingmodule": {
+    "display": "Networking Module",
+    "file_name": "NetworkingModule"
+  },
+  "uismodule": {
+    "display": "UIs Module",
+    "file_name": "UIsModule"
+  },
+  "commandsmodule": {
+    "display": "Commands Module",
+    "file_name": "CommandsModule"
+  },
+  "translationsmodule": {
+    "display": "Translations Module",
+    "file_name": "TranslationsModule"
+  }
+}
