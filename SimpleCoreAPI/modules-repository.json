@@ -1,66 +1,16 @@
 {
-  "filesmodule": {
-    "display": "Files Module",
-    "file_name": "FilesModule",
-    "source": {
-      "type": "git",
-      "location": "TheProgramSrc/SimpleCore-FilesModule"
-    }
-  },
-  "tasksmodule": {
-    "display": "Tasks Module",
-    "file_name": "TasksModule",
-    "source": {
-      "type": "git",
-      "location": "TheProgramSrc/SimpleCore-TasksModule"
-    }
-  },
-  "loggingmodule": {
-    "display": "Logging Module",
-    "file_name": "LoggingModule",
-    "source": {
-      "type": "git",
-      "location": "TheProgramSrc/SimpleCore-LoggingModule"
-    }
-  },
-  "dependencydownloadermodule": {
-    "display": "DependencyDownloader Module",
-    "file_name": "DependencyDownloaderModule",
-    "source": {
-      "type": "git",
-      "location": "TheProgramSrc/SimpleCore-DependencyDownloaderModule"
-    }
-  },
-  "networkingmodule": {
-    "display": "Networking Module",
-    "file_name": "NetworkingModule",
-    "source": {
-      "type": "git",
-      "location": "TheProgramSrc/SimpleCore-NetworkingModule"
-    }
-  },
-  "uismodule": {
-    "display": "UIs Module",
-    "file_name": "UIsModule",
-    "source": {
-      "type": "git",
-      "location": "TheProgramSrc/SimpleCore-UIsModule"
-    }
-  },
-  "commandsmodule": {
-    "display": "Commands Module",
-    "file_name": "CommandsModule",
-    "source": {
-      "type": "git",
-      "location": "TheProgramSrc/SimpleCore-CommandsModule"
-    }
-  },
-  "translationsmodule": {
-    "display": "Translations Module",
-    "file_name": "TranslationsModule",
-    "source": {
-      "type": "git",
-      "location": "TheProgramSrc/SimpleCore-TranslationsModule"
-    }
-  }
+  "repositories": [
+    "https://s01.oss.sonatype.org/content/groups/public/",
+    "https://oss.sonatype.org/content/repositories/snapshots/",
+    "https://oss.sonatype.org/content/repositories/releases/",
+    "https://oss.sonatype.org/content/groups/public/",
+    "https://hub.spigotmc.org/nexus/content/repositories/snapshots/",
+    "https://repo.papermc.io/repository/maven-public/",
+    "https://repo.codemc.org/repository/maven-public/",
+    "https://jitpack.io/"
+  ],
+  "dependencies": [
+    {
+      "group": "xyz.theprogramsrc", "artifact": "filesmodule", "version": "0.4.0-SNAPSHOT" }
+  ]
 }
