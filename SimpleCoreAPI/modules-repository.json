@@ -10,7 +10,15 @@
     "https://jitpack.io/"
   ],
   "dependencies": [
-     {
-       "group": "xyz.theprogramsrc", "artifact": "filesmodule", "version": "0.4.0-SNAPSHOT" }
-   ]
+    {
+      "group": "xyz.theprogramsrc",
+      "artifact": "filesmodule",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "group": "xyz.theprogramsrc",
+      "artifact": "loggingmodule",
+      "version": "0.4.0-SNAPSHOT"
+    }
+  ]
 }
